@@ -22,7 +22,7 @@ export const Heading1 = React.forwardRef<HTMLHeadingElement, HeadingProps>(
         className={cn(
           // These are our default Tailwind styles for H1.
           // Modify them to suit your own design system.
-          "scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl",
+          "text-neutral-600 text-5xl font-medium leading-[57.60px] sm:text-[42px] sm:leading-[57.6px]",
           className
         )}
         {...props}

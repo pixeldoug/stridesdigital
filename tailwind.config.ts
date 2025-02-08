@@ -8,26 +8,10 @@ export default {
   ],
   theme: {
     extend: {
-      fontSize: {
-        h1: [
-          "3rem",
-          {
-            lineHeight: "3.6rem",
-            fontWeight: "500",
-            letterSpacing: "-0.02rem",
-          },
-        ],
-        h2: ["36px", "28px"],
-        h3: "24px",
-        h4: "20px",
-        h5: "18px",
-        h6: "16px",
-        xl: ["24px", "20px"],
-        lg: ["20px", "18px"],
-        md: "16px",
-        sm: "14px",
-        xsm: "12px",
-        eyebrow: "14px",
+      fontFamily: {
+        sans: ["Space Grotesk", "sans-serif"],
+        heading: ["Space Grotesk", "sans-serif"],
+        mono: ["Fira Code", "monospace"],
       },
       colors: {
         primary: {
