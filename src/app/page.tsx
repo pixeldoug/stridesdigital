@@ -1,3 +1,4 @@
+import { Heading1 } from "@/components/ui/typography";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,7 +8,10 @@ export default function Home() {
         <section className="flex w-[62rem] px-6 justify-center items-center gap-6">
           <div className="flex flex-col justify-center items-start gap-6 flex-1">
             <div className="flex flex-col items-start">
-              <h1>Build better products with senior design help</h1>
+              <Heading1>Build better products with senior design help</Heading1>
+              <h1 className="text-h1">
+                Build better products with senior design help
+              </h1>
               <p>
                 Easily access a dedicated ux/ui product designer with our
                 monthly subscription.
