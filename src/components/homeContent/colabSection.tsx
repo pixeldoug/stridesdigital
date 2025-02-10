@@ -1,10 +1,12 @@
+import Button from "../ui/buttons";
 import { Container } from "../ui/layout/container";
 import { ContentGrid } from "../ui/layout/contentGrid";
-import { Heading1 } from "../ui/typography/heading1";
+import { Heading2 } from "../ui/typography/heading2";
 import Image from "next/image";
 import { ImageBlock } from "../ui/layout/imageBlock";
 import React from "react";
 import { Section } from "../ui/layout/sections";
+import { TextLarge } from "../ui/typography/textLarge";
 
 export function CollaborationSection() {
   return (
@@ -20,11 +22,12 @@ export function CollaborationSection() {
         </ImageBlock>
         <div className="flex flex-col justify-center items-start gap-6 flex-1">
           <ContentGrid>
-            <Heading1>Iterate Work that Allows Collaboration</Heading1>
-            <p>
+            <Heading2>Iterate Work that Allows Collaboration</Heading2>
+            <TextLarge>
               Get daily updates summaries to give you a quick overview of the
               progress made.
-            </p>
+            </TextLarge>
+            <Button variant="outline" label="See how it works" />
           </ContentGrid>
         </div>
       </Container>

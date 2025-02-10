@@ -12,7 +12,7 @@ export const Container = React.forwardRef<HTMLDivElement, ContainerProps>(
       <div
         ref={ref}
         className={cn(
-          "w-[992px] flex flex-row justify-center items-center gap-6 flex-1",
+          "w-[992px] md:w-full flex flex-col md:flex-row items-center justify-center gap-6  px-6",
           className
         )}
         {...props}

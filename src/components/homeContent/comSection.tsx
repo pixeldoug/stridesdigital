@@ -1,10 +1,11 @@
 import { Container } from "../ui/layout/container";
 import { ContentGrid } from "../ui/layout/contentGrid";
-import { Heading1 } from "../ui/typography/heading1";
+import { Heading2 } from "../ui/typography/heading2";
 import Image from "next/image";
 import { ImageBlock } from "../ui/layout/imageBlock";
 import React from "react";
 import { Section } from "../ui/layout/sections";
+import { TextLarge } from "../ui/typography/textLarge";
 
 export function CommunicationSection() {
   return (
@@ -12,11 +13,11 @@ export function CommunicationSection() {
       <Container>
         <div className="flex flex-col justify-center items-start gap-6 flex-1">
           <ContentGrid>
-            <Heading1>Streamline the communication</Heading1>
-            <p>
+            <Heading2>Streamline the communication</Heading2>
+            <TextLarge>
               Manage your design requests in your board or invite us to your
               preferred tool, like Slack.
-            </p>
+            </TextLarge>
           </ContentGrid>
         </div>
         <ImageBlock>

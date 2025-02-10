@@ -11,7 +11,7 @@ export const ContentGrid = React.forwardRef<HTMLDivElement, ContentGridProps>(
     return (
       <div
         ref={ref}
-        className={cn("flex flex-col items-start", className)}
+        className={cn("flex flex-col items-start gap-4 ", className)}
         {...props}
       >
         {children}

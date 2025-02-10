@@ -6,21 +6,18 @@ export interface HeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
   customProp?: string;
 }
 
-export const Heading1 = React.forwardRef<HTMLHeadingElement, HeadingProps>(
+export const Heading2 = React.forwardRef<HTMLHeadingElement, HeadingProps>(
   ({ className, children, ...props }, ref) => {
     return (
-      <h1
+      <h2
         ref={ref}
-        className={cn(
-          "text-5xl font-medium tracking-[-0.32px] sm:text-6xl",
-          className
-        )}
+        className={cn("text-4xl font-medium tracking-[-1px]", className)}
         {...props}
       >
         {children}
-      </h1>
+      </h2>
     );
   }
 );
 
-Heading1.displayName = "Heading1";
+Heading2.displayName = "Heading2";
