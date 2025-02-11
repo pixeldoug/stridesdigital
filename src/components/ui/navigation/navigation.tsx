@@ -40,8 +40,14 @@ const Navigation: React.FC = () => {
             variant="ghost"
             label="Login"
             url="https://billing.stripe.com/p/login/4gw8xg46U6RdaRO288"
+            size={"small"}
           />
-          <Button variant="primary" label="Pricing & Start" url="/" />
+          <Button
+            variant="primary"
+            label="Pricing & Start"
+            url="/"
+            size={"small"}
+          />
         </div>
 
         {/* Mobile Menu Toggle */}
